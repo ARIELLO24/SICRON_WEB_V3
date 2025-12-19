@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-    baseURL: '/api',
+    baseURL: 'http://sicronweb-backend-bi5j.onrender.com/',
     withCredentials: true,
     headers: {
         'Content-Type': 'application/json',
